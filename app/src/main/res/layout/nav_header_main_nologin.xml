@@ -17,7 +17,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bạn cần đăng nhập để sử dụng"
+            android:text="Đăng Nhập"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textSize="24sp"
@@ -37,7 +37,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/custom_button"
                 android:padding="16dp"
-                android:layout_gravity="bottom"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
                 android:text="Đăng Nhập" />
 
         <Button
@@ -45,8 +46,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/custom_button"
-                android:layout_gravity="bottom"
+                android:layout_gravity="center"
                 android:padding="16dp"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="Đăng Ký" />
 

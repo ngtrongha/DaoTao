@@ -17,7 +17,7 @@ public class InfostudentFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_infostudent, container, false);
-        TextView textView = (TextView) root.findViewById(R.id.text_slideshow);
+        TextView textView = (TextView) root.findViewById(R.id.title_infoSV);
         textView.setText("Thông tin sinh viên");
         return root;
     }
