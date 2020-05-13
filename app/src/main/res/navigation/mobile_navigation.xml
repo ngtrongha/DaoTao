@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/mobile_navigation"
-        app:startDestination="@+id/nav_home">
+        app:startDestination="@id/nav_infostudent">
 
     <fragment
             android:id="@+id/nav_home"
@@ -30,14 +30,12 @@
     </fragment>
 
     <fragment
-            android:id="@+id/nav_gallery"
-            android:name="vn.edu.tbd.daotao.ui.resultstudy.ResultstudyFragment"
-            android:label="@string/menu_gallery"
-            tools:layout="@layout/fragment_resultstudy" />
-
-    <fragment
-            android:id="@+id/nav_slideshow"
-            android:name="vn.edu.tbd.daotao.ui.Sơ yếu lý lịch.SlideshowFragment"
+            android:id="@+id/nav_infostudent"
+            android:name="vn.edu.tbd.daotao.ui.infostudent.InfostudentFragment"
             android:label="@string/menu_slideshow"
             tools:layout="@layout/fragment_infostudent" />
+    <fragment
+            android:id="@+id/nav_tkb"
+            android:name="vn.edu.tbd.daotao.ui.TKB.TKBFragment"
+            android:label="@string/menu_gallery" />
 </navigation>

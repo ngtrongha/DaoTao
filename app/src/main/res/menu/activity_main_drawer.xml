@@ -12,16 +12,9 @@
                 android:id="@+id/nav_infostudent"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="Sơ yếu lý lịch" />
-        <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="Chương trình đào tạo" />
-        <item   android:id="@+id/nav_tkb"
+        <item   android:id="@+id/nav_infostudent"
                 android:icon="@drawable/ic_eye"
                 android:title="Thời khóa biểu"/>
-        <item   android:id="@+id/nav_resultstudy"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="Xem điểm học tập"/>
 
     </group>
 </menu>
