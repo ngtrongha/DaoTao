@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/mobile_navigation"
-        app:startDestination="@id/nav_infostudent">
+        app:startDestination="@id/nav_home">
 
     <fragment
             android:id="@+id/nav_home"
@@ -13,7 +13,8 @@
 
         <action
                 android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-                app:destination="@id/nav_home_second" />
+                app:destination="@id/nav_home_second"
+                app:launchSingleTop="true" />
     </fragment>
     <fragment
             android:id="@+id/nav_home_second"
@@ -31,9 +32,9 @@
 
     <fragment
             android:id="@+id/nav_infostudent"
-            android:name="vn.edu.tbd.daotao.ui.infostudent.InfostudentFragment"
+            android:name="vn.edu.tbd.daotao.ui.home.HomeFragment"
             android:label="@string/menu_slideshow"
-            tools:layout="@layout/fragment_infostudent" />
+            tools:layout="@layout/fragment_home" />
     <fragment
             android:id="@+id/nav_tkb"
             android:name="vn.edu.tbd.daotao.ui.TKB.TKBFragment"
